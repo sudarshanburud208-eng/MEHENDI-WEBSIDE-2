@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prathma Burud Mehendi Artist | Kolhapur</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+body{
+    line-height:1.6;
+    color:#333;
+}
+header{
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url('https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+header h1{
+    font-size:3rem;
+}
+header p{
+    margin:15px 0;
+    font-size:1.2rem;
+}
+.btn{
+    display:inline-block;
+    padding:12px 25px;
+    margin:10px;
+    background:#0b6b3a;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+section{
+    padding:60px 20px;
+    max-width:1100px;
+    margin:auto;
+}
+h2{
+    text-align:center;
+    color:#0b6b3a;
+    margin-bottom:30px;
+}
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+.card{
+    background:#f4f4f4;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+}
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+}
+.gallery img{
+    width:100%;
+    border-radius:10px;
+}
+.testimonial{
+    background:#f9f9f9;
+    padding:20px;
+    border-left:5px solid #0b6b3a;
+    margin-bottom:15px;
+}
+.contact{
+    text-align:center;
+}
+footer{
+    background:#0b6b3a;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Prathma Burud Mehendi Artist</h1>
+    <p>Transforming Hands into Beautiful Art</p>
+    <p>3+ Years Experience | 50+ Happy Clients | Kolhapur, Maharashtra</p>
+
+    <a href="#contact" class="btn">Book Now</a>
+    <a href="#gallery" class="btn">View Gallery</a>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        Welcome to Prathma Burud Mehendi Artist. With over 3 years of experience
+        and 50+ satisfied customers, I specialize in creating beautiful bridal,
+        Arabic, traditional, and customized mehendi designs for every occasion.
+    </p>
+</section>
+
+<section>
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">Bridal Mehendi</div>
+        <div class="card">Arabic Mehendi</div>
+        <div class="card">Engagement Mehendi</div>
+        <div class="card">Festival Mehendi</div>
+        <div class="card">Party Mehendi</div>
+        <div class="card">Custom Designs</div>
+    </div>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=600" alt="">
+        <img src="https://images.unsplash.com/photo-1606800052052-a08af7148866?w=600" alt="">
+        <img src="https://images.unsplash.com/photo-1622383563227-04401ab4e5ea?w=600" alt="">
+    </div>
+</section>
+
+<section>
+    <h2>Why Choose Us?</h2>
+    <div class="services">
+        <div class="card">Professional Service</div>
+        <div class="card">Unique Designs</div>
+        <div class="card">Affordable Pricing</div>
+        <div class="card">Customer Satisfaction</div>
+        <div class="card">On-Time Service</div>
+    </div>
+</section>
+
+<section>
+    <h2>Client Reviews</h2>
+
+    <div class="testimonial">
+        "Beautiful bridal mehendi design and excellent service."
+    </div>
+
+    <div class="testimonial">
+        "Very creative and professional work. Highly recommended!"
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+
+    <p><strong>Prathma Burud Mehendi Artist</strong></p>
+    <p>Kolhapur, Maharashtra</p>
+    <p>Phone: +91 XXXXXXXXXX</p>
+
+    <br>
+
+    <a class="btn" href="https://wa.me/91XXXXXXXXXX">
+        WhatsApp Booking
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 Prathma Burud Mehendi Artist. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
